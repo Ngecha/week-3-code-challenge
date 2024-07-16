@@ -15,4 +15,4 @@ contributions are highly welcome.
 License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-TO acces the web application visit
+TO acces the web application visit https://silly-cannoli-0ae989.netlify.app/
