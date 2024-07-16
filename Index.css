@@ -1,16 +1,17 @@
+
 #moviedetails  {
-  flex:auto;
-  text-align: center;
-  background-color: antiquewhite;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex:auto;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #movielist {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  list-style: none;
-  padding: 5px;
-  font-size: medium;
-  background-color: #eee;
-  cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 5px;
+    font-size: medium;
+    background-color: #eee;
+    cursor: pointer;
 }
 
 body{
@@ -18,7 +19,7 @@ background-color: beige;
 }
 
 #heading{
-  font-style: oblique;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 } 
