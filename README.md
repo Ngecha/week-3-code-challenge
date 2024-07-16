@@ -4,10 +4,10 @@ Flatdango
 Flatdango is a web application that allows users to purchase movie tickets for a theater. Users can browse available movies, select showtimes, and purchase tickets seamlessly.
 
 Features
-Browse currently showing movies
-View showtimes and available seats
-Purchase movie tickets online
-User-friendly interface
+ .Browse currently showing movies
+ .View showtimes and available seats
+ .Purchase movie tickets online
+ .User-friendly interface
 
 contributions are highly welcome.
 
