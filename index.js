@@ -2,6 +2,7 @@ function flatDjango() {
   fetch("http://localhost:3000/films")
     .then((res) => res.json())
     .then((filmData) => {
+      //the poster card with details
       function showFilms(film) {
         let card = document.getElementById("cards");
         let posterImage = document.createElement("img");
@@ -41,7 +42,7 @@ function flatDjango() {
         detailsContainer.appendChild(buyButton);
         detailsContainer.appendChild(tickets);
 
-        //Event Listeners
+        //Event Listener
         buyButton.addEventListener("click", () => {
           if (remTickets === 1) {
             buyButton.innerText = "SOLD OUT";
@@ -61,6 +62,7 @@ function flatDjango() {
           showFilms(film)
         })
       });
+      //default movie setting
       const defaultMovie = movielist.querySelector('ol');
       if(defaultMovie){
         defaultMovie.click()
