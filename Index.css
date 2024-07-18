@@ -1,22 +1,36 @@
 
-#moviedetails  {
-    flex:auto;
-    text-align: center;
+#cards{
+    display: flex;
     background-color: antiquewhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#moviedetails{
+    display: flex;
+    margin: 10px;
 }
 #movielist {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     padding: 5px;
     font-size: medium;
-    background-color: #eee;
     cursor: pointer;
 }
+#postercontainer{
+    margin: 20px;
 
-body{
-background-color: beige;
 }
+#detailscontainer{
+    margin: 20px;
+    text-align: left;
+    max-inline-size: 300px;
+}
+#body{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    background-color:beige;
+}
+
 
 #heading{
     font-style: oblique;
